@@ -13,7 +13,7 @@ pipeline {
 	 stage('git') {
 		 
 	when {
-    expression { 
+     expression { 
         params.action == 'apply'
         
     }
